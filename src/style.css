@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: rgb(103, 204, 165);
+    padding: 5% 0;
+}
+
+#content{
+    width: 60%;
+    margin: auto;
+    border:1px solid white;
+    box-shadow: 3px 3px 4px grey;
+    padding: 2%;
+    border-radius: 2%;
+    background-color: rgb(168, 250, 223);
+}
+
+table{
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table th{
+font-size: 20px;
+font-weight: bold;
+padding: 5px;
+border-bottom: 2px solid rgb(36, 206, 155);
+}
+
+select{
+    width: 45%;
+    font-size: 20px;
+    margin: 2px 10px;
+}
+
+#myInput{
+    font-size: 25px;
+    margin: 20px 10px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.rmrow a{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.rmrow a:hover{
+    color: rgb(167, 10, 10);
+}
